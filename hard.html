@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science</title>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="./index.html" class="modelink">Easy Mode</a>
+
+    <div id="wrapper">
+        <div class="heading">
+            <p class="text" style="color: red;">EXTREME MODE! GUESS THE ELEMENT!</p>
+        </div>
+        <div class="middle">
+            <p id="middleText"></p>
+        </div>
+        <div class="textbox">
+            <input id="input" class="text" type="text" placeholder="Element">
+            <div id="selectGroup">
+                <label for="modeSelection" id="modeLabel">Mode</label>
+                <select name="modeSelection" id="modeSelection">
+                    <option value="Element">Guess the Element</option>
+                    <option value="Symbol">Guess the Symbol</option>
+                </select>
+            </div>
+            <input id="start" class="btn" type="button" value="Start">
+        </div>
+    </div>
+
+    <div class="credits">Made by KaiCodesTech</div>
+    
+    <script src="hard.js"></script>
+</body>
+
+</html>
